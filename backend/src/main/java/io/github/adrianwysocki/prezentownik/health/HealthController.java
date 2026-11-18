@@ -1,4 +1,4 @@
-package io.github.adrianwysocki.prezentownik.controller;
+package io.github.adrianwysocki.prezentownik.health;
 
 import java.util.Map;
 import org.springframework.web.bind.annotation.RestController;
