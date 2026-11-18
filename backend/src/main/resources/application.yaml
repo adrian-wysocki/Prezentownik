@@ -2,6 +2,11 @@ spring:
   application:
     name: prezentownik-backend
 
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5434/prezentownik}
     username: ${POSTGRES_USER}
